@@ -1,1 +1,3 @@
+#ignore venv files
 collectData/getPenaltyData/ENV/
+collectData/getPenaltyData/__pycache__/

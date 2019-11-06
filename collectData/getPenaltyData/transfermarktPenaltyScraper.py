@@ -243,15 +243,15 @@ def findPenaltyData():
 	#start year 2005, end year: 2006 will return data from the 2005/06 season
 	#use "append=True" to not overwrite all existing data for this league.
 
-	findPenaltiesFromLeague("NL1", 2007, 2019, append=True)
-	#findPenaltiesFromLeague("GB1", 2005, 2020)
-	#findPenaltiesFromLeague("ES1", 2005, 2020)
-	#findPenaltiesFromLeague("ES2", 2013, 2020)
-	#findPenaltiesFromLeague("L1", 2005, 2020)
-	#findPenaltiesFromLeague("L2", 2005, 2018)
-	#findPenaltiesFromLeague("GB2", 2007, 2018)
-	#findPenaltiesFromLeague("GB3", 2009, 2018)
-	#findPenaltiesFromLeague("FR1", 2014, 2018)
+	findPenaltiesFromLeague("NL1", 2007, 2020)
+	findPenaltiesFromLeague("GB1", 2005, 2020)
+	findPenaltiesFromLeague("ES1", 2005, 2020)
+	findPenaltiesFromLeague("ES2", 2013, 2020)
+	findPenaltiesFromLeague("L1", 2005, 2020)
+	findPenaltiesFromLeague("L2", 2005, 2020)
+	findPenaltiesFromLeague("GB2", 2007, 2020)
+	findPenaltiesFromLeague("GB3", 2009, 2020)
+	findPenaltiesFromLeague("FR1", 2014, 2020)
 
 	#findPenaltiesFromLeague("L2", 2018, 2020, append=True)
 	#findPenaltiesFromLeague("GB2", 2018, 2020, append=True)
